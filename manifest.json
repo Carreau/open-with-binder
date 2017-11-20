@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "Open with MyBinder",
+  "version": "0.1",
+
+  "description": "Add a Binderify icon to the toolbar to launch current Github repository on Binder.",
+  "homepage_url": "https://github.com/",
+  "icons": {
+    "48": "binder_logo.svg"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["content_scripts/binderify.js"]
+  },
+
+  "browser_action": {
+    "browser_style" : true,
+    "default_icon": "assets/binder_logo.svg",
+    "default_title": "Binderify"
+  }
+
+}
