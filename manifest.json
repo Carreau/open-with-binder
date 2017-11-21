@@ -7,7 +7,8 @@
   "description": "Add an 'Open With Binder' icon to the toolbar to launch current GitHub repository on MyBinder.org",
   "homepage_url": "https://github.com/",
   "icons": {
-    "48": "assets/binder_logo.svg"
+    "48": "assets/binder_logo_48x48.png",
+    "96": "assets/binder_logo_96x96.png"
   },
 
   "permissions": [
