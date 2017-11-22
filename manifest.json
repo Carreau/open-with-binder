@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Open with Binder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add an 'Open With Binder' icon to the toolbar to launch current GitHub repository on MyBinder.org",
   "homepage_url": "https://github.com/Carreau/open-with-binder-firefox-extension/",
   "icons": {
