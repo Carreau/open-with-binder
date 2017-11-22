@@ -1,28 +1,24 @@
 {
-
   "manifest_version": 2,
   "name": "Open with Binder",
-  "version": "0.1.0beta3",
-
+  "version": "1.2.3",
   "description": "Add an 'Open With Binder' icon to the toolbar to launch current GitHub repository on MyBinder.org",
-  "homepage_url": "https://github.com/",
+  "homepage_url": "https://github.com/Carreau/open-with-binder-firefox-extension/",
   "icons": {
     "48": "assets/binder_logo_48x48.png",
     "96": "assets/binder_logo_96x96.png"
   },
-
   "permissions": [
     "activeTab"
   ],
-
   "background": {
-    "scripts": ["content_scripts/binderify.js"]
+    "scripts": [
+      "content_scripts/binderify.js"
+    ]
   },
-
   "browser_action": {
-    "browser_style" : true,
+    "browser_style": true,
     "default_icon": "assets/binder_logo.svg",
     "default_title": "Open With Binder"
   }
-
 }
