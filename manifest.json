@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Open with Binder",
-  "version": "0.1.0beta2",
+  "version": "0.1.0beta3",
 
   "description": "Add an 'Open With Binder' icon to the toolbar to launch current GitHub repository on MyBinder.org",
   "homepage_url": "https://github.com/",
@@ -22,7 +22,7 @@
   "browser_action": {
     "browser_style" : true,
     "default_icon": "assets/binder_logo.svg",
-    "default_title": "Binderify"
+    "default_title": "Open With Binder"
   }
 
 }
