@@ -13,12 +13,13 @@
   ],
   "background": {
     "scripts": [
+      "content_scripts/browser-polyfill.js",
       "content_scripts/binderify.js"
     ]
   },
   "browser_action": {
     "browser_style": true,
-    "default_icon": "assets/binder_logo.svg",
+    "default_icon": "assets/binder_logo_64x64.png",
     "default_title": "Open With Binder"
   }
 }
