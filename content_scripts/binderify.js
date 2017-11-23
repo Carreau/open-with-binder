@@ -13,7 +13,16 @@
         console.warn('While you are on GitHub, You do not appear to be in a github repository. Aborting.');
         return;
       }
-      let my_binder_url = 'https://mybinder.org/v2/gh/'+parts[1] +'/'+parts[2] +'/master';
+      let branch_tag_hash = 'master';
+      if (parts.length >= 5){
+        branch_tag_hash = parts[4]; // part 3 is 'blob' or 'tree'.
+      }
+      let extra = '';
+      if (parts.length > 5){
+        extra = '?filepath='+parts.slice(5).join('%2F')
+      }
+
+      let my_binder_url = 'https://mybinder.org/v2/gh/'+parts[1] +'/'+parts[2] +'/' + branch_tag_hash+extra;
       console.info('Opening ' + url + 'using mybinder.org... enjoy !')
       browser.tabs.create({'url':my_binder_url});
     })
