@@ -1,0 +1,7 @@
+This extension provides a toolbar button button to ease the use of
+https://github.com when https://mybinder.org.
+
+When browsing a repository on GitHub a click on the "Open With Binder" toolbar
+button will redirect the user to the corresponding Binder url allowing them to
+interact with the repository without having to enter the informations manually
+in the Binder form.
