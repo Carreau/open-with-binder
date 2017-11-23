@@ -2,6 +2,13 @@
 
 Add a "Open in Binder" button in firefox toolbar.
 
+# Install
+
+Head [here](https://addons.mozilla.org/en-US/firefox/addon/open-with-binder/),
+click on "Add to Firefox".
+
+Enjoy.
+
 ## How to use
 
  - Install the Firefox extension
@@ -9,9 +16,7 @@ Add a "Open in Binder" button in firefox toolbar.
 
 ![](images/example.png)
 
-## How to install
-
-TODO. 
+## Dev install:
 
 Install web-ext
 ```
