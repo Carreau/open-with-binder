@@ -6,7 +6,9 @@
   "homepage_url": "https://github.com/Carreau/open-with-binder-firefox-extension/",
   "icons": {
     "48": "assets/binder_logo_48x48.png",
-    "96": "assets/binder_logo_96x96.png"
+    "64": "assets/binder_logo_64x64.png",
+    "96": "assets/binder_logo_96x96.png",
+    "128": "assets/binder_logo_128x128.png"
   },
   "permissions": [
     "activeTab"
